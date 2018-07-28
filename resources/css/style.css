@@ -1,0 +1,32 @@
+
+/* reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* universal */
+
+html {
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png")
+  height: 30rem;
+}
+
+nav {
+  background-color: cadetblue;
+}
